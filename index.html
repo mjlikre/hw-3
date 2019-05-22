@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guessing game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+</head>
+<body>
+    <div class = 'container'>
+        <div class = 'jumbotron'>
+    
+            <h1>Marvel guessing game!!!!!</h1>
+            <p>Guess the movie character from marvel movies</p>
+        </div>
+
+        <!-- shows the word that the player needs to guess and their guesses -->
+        <div>
+            <div>
+                <h3>word to guess</h3>
+            </div>
+            <div class = 'panel-body'>
+                _ _ _ _ _ _ _ _ _ _ 
+            </div>
+        </div>
+
+        <!-- letters guessed -->
+
+        <div>
+            <div>
+                Wrong Guessed <span id = 'wrongLetters'></span>
+            </div>
+        </div>
+
+        <!-- guesses remaining  -->
+
+        <div>
+            <div>
+                guesses remaining: <span id = 'guessesLeft'>15</span>
+            </div>
+        </div>
+    
+        <!-- win counter -->
+
+        <div>
+            <div>
+                Wn Counter: <span id = 'winCounter'>0</span>
+            </div>
+        </div>
+
+        <!-- loss counter -->
+
+        <div>
+            <div>
+                Loss Counter: <span id = 'lossCounter'>0</span>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
