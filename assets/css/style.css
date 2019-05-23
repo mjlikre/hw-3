@@ -1,0 +1,16 @@
+
+body{
+    background-color: black; 
+    color: white;
+}
+#bgImage{
+    background-image: url('https://boygeniusreport.files.wordpress.com/2018/04/avengers-infinity-war3.jpg?quality=98&strip=all&w=1200') ;
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.caption {
+    font-weight:bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 10px black;
+}
